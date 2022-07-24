@@ -1,4 +1,4 @@
-package com.springboot.todolist.web.dto.content;
+package com.springboot.todolist.web.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,5 +11,4 @@ public class CMResponseDTO<T> {
 	private int code;
 	private String message;
 	private T data;
-	
 }
